@@ -3,12 +3,12 @@ on:
   workflow_dispatch:
     inputs:
       server_name:
-        description: '区服名称-必须（必须是英文字母！例如 Bilibili，台服和外服请使用XAPK AzurLane JMBQ Build Work）'
+        description: 'jiuyou'
         required: true
         type: string
         default: ''
       download_url:
-        description: 'APK下载链接（只能填入直链，最好使用国外云盘的直链，例如Google云盘）'
+        description: 'https://downali.9game.cn/s1/7/1/2025111421211051_com.bilibili.blhx.uc.apk?x-oss-process=udf/uc-apk,ZxHCogV4VjZiTsOwwq0=2ecb976b5891af6e&did=ac0e59c8a2c648718c5fea56fffc3289&cc=4266787276&vh=711aa04990ed809406e1767a3a9f10a8&sf=1498291342'
         required: true
         type: string
         default: ''
